@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image To Pdf</string>
+    <string name="add">Add</string>
+    <string name="special_feature_add_text_on_any_page_by_selecting_page_number_and_position">Special Feature : Add text on any page by selecting page number and position</string>
+</resources>

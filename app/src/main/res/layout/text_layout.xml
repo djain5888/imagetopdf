@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="15sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="5sp"
+        android:layout_margin="5sp"
+        android:elevation="5sp"
+        android:background="@drawable/background_white"
+        android:translationZ="5sp"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2sp"
+            android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="3sp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="3sp"
+                android:background="@drawable/background_white">
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:id="@+id/spinner"
+
+                android:layout_height="35sp"
+
+
+                />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="3sp"
+                android:background="@drawable/background_white">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:id="@+id/position"
+
+                    android:layout_height="35sp"
+
+
+                    />
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/text"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:layout_margin="7sp"
+
+
+            android:background="@drawable/background_white"
+
+            android:hint="Enter text here" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/background_white"
+
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:layout_margin="5sp"
+                android:buttonTint="@color/colorPrimary"
+                android:padding="7sp"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/add"
+                android:id="@+id/check"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
